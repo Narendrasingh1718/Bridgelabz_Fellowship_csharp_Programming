@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="Constructor/Constructor.csproj" />
   <Project Path="Encapsulation/Encapsulation.csproj" />
+  <Project Path="Inheritance/Inheritance.csproj" />
+  <Project Path="ObjectClass/ObjectClass.csproj" />
+  <Project Path="Polymorphism/Polymorphism.csproj" />
 </Solution>
