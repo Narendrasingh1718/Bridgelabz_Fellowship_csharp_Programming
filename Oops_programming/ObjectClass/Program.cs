@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿namespace ObjectClass
+=======
+﻿﻿namespace ObjectClass
+>>>>>>> 6b280edfa06141d5fe7e7446599f9a95bddfa366
 {
     internal class Program
     {
@@ -12,4 +16,8 @@
 
         }
     }
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> 6b280edfa06141d5fe7e7446599f9a95bddfa366
