@@ -54,19 +54,76 @@ class program
         //t.Join();
 
         //sleep method
-        Sleep s = new Sleep();
-        Thread t2 = new Thread(s.run);
-        t2.Start();
+        //Sleep s = new Sleep();
+        //Thread t2 = new Thread(s.run);
+        //t2.Start();
+
 
         //Yeild method
         //Yeild yeild = new Yeild();
         //Thread t3=new Thread(yeild.run);
         //t3.Start();
 
-        for (int i = 0; i < 10; i++)
-        {
-            Console.WriteLine("Main thread is running" + i);
-        }
+        //Race condition
+        //RaceCondition rc = new RaceCondition(); 
+        //Thread t1 = new Thread(rc.run);
+        //Thread t2 = new Thread(rc.run);
+        //t1.Start();
+        //t2.Start();
+        //t1.Join(); t2.Join();
+        //Console.WriteLine(RaceCondition.count);
+
+        //Synchronization using lock
+        //Syncronization s = new Syncronization();
+        //Thread t1 = new Thread(s.run);
+        //Thread t2 = new Thread(s.run);
+        //t1.Start(); 
+        //t2.Start();
+        //t1.Join(); 
+        //t2.Join(); 
+        //Console.WriteLine(Syncronization.count);
+
+        //monier
+        //Moniter m = new Moniter();
+        //Thread t1 = new Thread(m.run);
+        //Thread t2 = new Thread(m.run);
+        //t1.Start();
+        //t2.Start();
+        //t1.Join();
+        //t2.Join();
+        //Console.WriteLine(Moniter.count);
+
+        //Mutex
+        //MutexSync m = new MutexSync();
+        //Thread t1 = new Thread(m.run);
+        //Thread t2 = new Thread(m.run);
+        //t1.Start();
+        //t2.Start();
+        //t1.Join();
+        //t2.Join();
+        //Console.WriteLine(MutexSync.count);
+
+        // Deadlock
+        //Thread t1 = new Thread(new Deadlock().Thread1);
+        //Thread t2 = new Thread(new Deadlock().Thread2);
+        //t1.Start();
+        //t2.Start();
+        //t1.Join();
+        //t2.Join();
+
+        //deadlock avoidance
+        Thread t1 = new Thread(new DeadlockAvoidance().Thread1);
+        Thread t2 = new Thread(new DeadlockAvoidance().Thread2);
+        t1.Start();
+        t2.Start();
+        t1.Join();
+        t2.Join();
+
+
+        //for (int i = 0; i < 10; i++)
+        //{
+        //    Console.WriteLine("Main thread is running" + i);
+        //}
     }
-    
+
 }

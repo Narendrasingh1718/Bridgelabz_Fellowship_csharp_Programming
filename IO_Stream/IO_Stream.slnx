@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Ado.Net/Ado.Net.csproj" />
+  <Project Path="Asynchronous_Programming/Asynchronous_Programming.csproj" Id="cefb93a0-e345-4981-a4d9-18e3e75fa391" />
+  <Project Path="Attribute/Attribute.csproj" Id="f2ae4827-a8b6-4028-96b1-3f8d4fcf0e2e" />
+  <Project Path="CancellationTask/CancellationTask.csproj" Id="12a54d62-8f39-40a4-ab6b-589c4e33980a" />
+  <Project Path="File_handling/File_handling.csproj" Id="c96f22a4-1fc6-4689-b199-99e9af3b9491" />
+  <Project Path="File_IO/File_IO.csproj" Id="695de2ae-f4b5-4969-b9fd-c49793d7b121" />
+  <Project Path="Multithearding/Multithearding.csproj" />
+  <Project Path="Rev/Rev.csproj" Id="52bd83ca-ac72-420b-8c77-1a0c7b18ff68" />
+</Solution>

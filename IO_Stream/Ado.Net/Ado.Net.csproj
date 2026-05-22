@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Mutexsync.cs" />
+    <PackageReference Include="MySql.Data" Version="9.7.0" />
   </ItemGroup>
 
 </Project>
