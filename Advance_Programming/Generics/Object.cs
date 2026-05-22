@@ -1,15 +1,14 @@
 ﻿//using System;
 //namespace GenericsDemo
 //{
-//    public class ClsMain // by using object data type we can accept any data type but it is not a good practice because we have to do type casting and it is not type safe
+//    public class Object // by using object data type we can accept any data type but it is not a good practice because we have to do type casting and it is not type safe
 //    {
-//        private static void Main()
-//        {
+//        private static void Main()        {
 //            // bool IsEqual = ClsCalculator.AreEqual(10, 20);
 //            bool IsEqual = ClsCalculator.AreEqual("ABC", "ABC");
 //            if (IsEqual)
 //            {
-//                Console.WriteLine("Both are Equal");
+//                  Console.WriteLine("Both are Equal");
 //            }
 //            else
 //            {
