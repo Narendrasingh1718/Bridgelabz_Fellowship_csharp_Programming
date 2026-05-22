@@ -7,4 +7,5 @@
   <Project Path="File_IO/File_IO.csproj" Id="695de2ae-f4b5-4969-b9fd-c49793d7b121" />
   <Project Path="Multithearding/Multithearding.csproj" />
   <Project Path="Rev/Rev.csproj" Id="52bd83ca-ac72-420b-8c77-1a0c7b18ff68" />
+  <Project Path="Task/Task.csproj" Id="4bc29dae-9894-44ce-a209-a0915e16afe0" />
 </Solution>
