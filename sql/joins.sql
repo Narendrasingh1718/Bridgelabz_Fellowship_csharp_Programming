@@ -1,0 +1,5 @@
+--join
+--SELECT s.StudentName, c.CourseName FROM Students s INNER JOIN Enrollments e ON s.StudentId = e.StudentId INNER JOIN Courses c ON e.CourseId = c.CourseId;
+--SELECT s.StudentName, c.CourseName FROM Students s LEFT JOIN Enrollments e ON s.StudentId = e.StudentId LEFT JOIN Courses c ON e.CourseId = c.CourseId;
+--SELECT  s.StudentName, c.CourseName FROM Courses c LEFT JOIN Enrollments e ON c.CourseId = e.CourseId LEFT JOIN Students s ON e.StudentId = s.StudentId;
+--SELECT s.StudentName, c.CourseName FROM Students s FULL OUTER JOIN Enrollments e  ON s.StudentId = e.StudentId FULL OUTER JOIN Courses c ON e.CourseId = c.CourseId;
